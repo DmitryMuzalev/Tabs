@@ -1,27 +1,12 @@
 //_Font:
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
 
-//_Import styles:
-@import "tab-1.scss";
+//_Functions:
+@import "functions.scss";
 
 //_General styles:
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Poppins", sans-serif;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 [class*="__container"] {
@@ -29,3 +14,14 @@ a {
   margin: 0 auto;
   padding: 0 40px;
 }
+
+.title {
+  font-size: rem(24);
+}
+
+.subtitle {
+}
+
+//_Import styles:
+@import "tab-1.scss";
+@import "reset.scss";
