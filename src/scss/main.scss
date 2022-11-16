@@ -72,15 +72,13 @@ body {
   }
 
   &__content {
-    padding: rem(35);
-    max-height: 300px;
-    overflow: auto;
-    @media (max-width: 600px) {
-      padding: rem(20);
-    }
+    padding: rem(35) 0;
   }
 
   &__item {
+    max-height: 300px;
+    overflow: auto;
+    padding: 0 rem(35);
     line-height: 1.5;
     font-weight: 600;
     display: none;
@@ -93,6 +91,8 @@ body {
     }
     @media (max-width: 600px) {
       font-size: rem(14);
+
+      padding: 0 rem(20);
     }
   }
 }
@@ -110,4 +110,5 @@ body {
 //_Import styles:
 @import "tab-1.scss";
 @import "tab-2.scss";
+@import "tab-3.scss";
 @import "reset.scss";
