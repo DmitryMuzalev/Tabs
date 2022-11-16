@@ -10,11 +10,11 @@ body {
 }
 
 .title {
-  font-size: calc($px/ 16)rem;
+  font-size: 1.5rem;
 }
 
 .tab-1 {
-  margin: calc($px/ 16)rem 0;
+  margin: 3.125rem 0;
 }
 * {
   padding: 0;

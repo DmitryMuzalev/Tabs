@@ -1,11 +1,11 @@
 //to REM
 @function rem($px) {
-  $result: calc($px/ 16) + rem;
+  $result: $px/ 16 + rem;
   @return $result;
 }
 
 //to EM
 @function em($px) {
-  $result: calc($px/ 16) + em;
+  $result: $px/ 16 + em;
   @return $result;
 }
