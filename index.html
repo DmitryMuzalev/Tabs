@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="icon-font.css" />
     <script src="script.js" defer></script>
     <title>Tabs</title>
   </head>
@@ -18,43 +19,76 @@
           </p>
           <div class="tab-1__body">
             <ul class="tab-1__links">
-              <li><a href="#" class="tab-1__link">philosophy</a></li>
-              <li><a href="#" class="tab-1__link">mission & vision</a></li>
-              <li><a href="#" class="tab-1__link">goals</a></li>
-              <li><a href="#" class="tab-1__link">privacy policy</a></li>
+              <li>
+                <a
+                  href="#"
+                  class="tab-1__link icon-paper-airplane active"
+                  data-tab="tab-1_1"
+                  ><span>philosophy</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="tab-1__link icon-mountain"
+                  data-tab="tab-1_2"
+                >
+                  <span>mission & vision</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="tab-1__link icon-cup" data-tab="tab-1_3"
+                  ><span>goals</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="tab-1__link icon-lock" data-tab="tab-1_4"
+                  ><span>privacy policy</span></a
+                >
+              </li>
             </ul>
             <ul class="tab-1__content">
-              <li class="tab-1__item">
+              <li id="tab-1_1" class="tab-1__item active">
+                <h3 class="tab-1__title-item">philosophy</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Magnam doloremque perspiciatis quibusdam quis sequi distinctio
                   fugit exercitationem autem repellendus dolores natus ea
                   sapiente molestiae reprehenderit, officia eos omnis beatae.
                   Rerum necessitatibus distinctio, deleniti explicabo magnam
-                  facere. Nobis deleniti atque et laborum nemo ex ab minima
-                  praesentium voluptate. Suscipit molestias ut officia omnis
-                  consequuntur laborum, architecto, aspernatur quasi ea alias
-                  voluptatibus laudantium? Libero, error. Nam saepe ipsa
-                  deleniti.
+                  facere.
+                </p>
+                <p>
+                  Nobis deleniti atque et laborum nemo ex ab minima praesentium
+                  voluptate. Suscipit molestias ut officia omnis consequuntur
+                  laborum, architecto, aspernatur quasi ea alias voluptatibus
+                  laudantium? Libero, error. Nam saepe ipsa deleniti.
                 </p>
               </li>
-              <li class="tab-1__item">
+              <li id="tab-1_2" class="tab-1__item">
+                <h3 class="tab-1__title-item">mission & vision</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Numquam beatae vel pariatur dignissimos esse temporibus
                   fugiat. Delectus dignissimos ipsam non. Quas ducimus id sunt
-                  fugiat facere illo voluptate debitis illum. Animi quo dolorem
-                  accusantium, quisquam veniam fuga debitis, unde iste rerum
-                  perferendis quam nulla. Fugiat nostrum minus ipsum. Dolores,
-                  repellat.
+                  fugiat facere illo voluptate debitis illum.
+                </p>
+                <p>
+                  Animi quo dolorem accusantium, quisquam veniam fuga debitis,
+                  unde iste rerum perferendis quam nulla. Fugiat nostrum minus
+                  ipsum. Dolores, repellat.
                 </p>
               </li>
-              <li class="tab-1__item">
+              <li id="tab-1_3" class="tab-1__item">
+                <h3 class="tab-1__title-item">goals</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
                   quisquam tempora debitis possimus aut, repudiandae
                   accusantium, eveniet illum numquam laboriosam neque! Dolorem
                   natus sit magni velit, quibusdam alias! Voluptatibus, libero.
+                </p>
+
+                <p>
                   Ea dolorem consequatur sapiente itaque ullam mollitia laborum
                   saepe ratione, maiores reprehenderit, necessitatibus officiis
                   nihil consectetur labore a possimus? Voluptatum repellendus,
@@ -62,17 +96,23 @@
                   inventore explicabo.
                 </p>
               </li>
-              <li class="tab-1__item">
+              <li id="tab-1_4" class="tab-1__item">
+                <h3 class="tab-1__title-item">privacy policy</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Quibusdam commodi velit consectetur id enim accusantium illo
                   pariatur nisi ut dignissimos suscipit quidem asperiores,
                   autem, quaerat sit culpa sequi sapiente debitis ad officia
-                  quam consequuntur minus? Quisquam, corrupti voluptatem
-                  inventore velit voluptatum quis cumque, mollitia eos aliquam
-                  modi obcaecati, rerum sunt accusantium reprehenderit dolore
-                  aspernatur labore perferendis ullam dignissimos. Odio
-                  repellendus ducimus ipsum at unde laudantium quaerat
+                  quam consequuntur minus?
+                </p>
+                <p>
+                  Quisquam, corrupti voluptatem inventore velit voluptatum quis
+                  cumque, mollitia eos aliquam modi obcaecati, rerum sunt
+                  accusantium reprehenderit dolore aspernatur labore perferendis
+                  ullam dignissimos.
+                </p>
+                <p>
+                  Odio repellendus ducimus ipsum at unde laudantium quaerat
                   temporibus.
                 </p>
               </li>
