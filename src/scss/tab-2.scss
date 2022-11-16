@@ -1,0 +1,43 @@
+.tab-2 {
+  background-color: #4f32c8;
+  color: #ffffff;
+
+  &__container {
+  }
+
+  &__title {
+  }
+
+  &__subtitle {
+  }
+
+  &__body {
+    display: flex;
+    box-shadow: 0 0 40px -20px rgba($color: #ffffff, $alpha: 0.4);
+  }
+
+  &__links {
+    flex: 1 0 25%;
+    @media (max-width: 600px) {
+      flex-basis: auto;
+    }
+  }
+
+  &__link {
+    padding: rem(20);
+    &.active {
+      background-color: #6147ce;
+    }
+    span {
+      text-transform: capitalize;
+      font-weight: 500;
+    }
+  }
+
+  &__content {
+    background-color: #6147ce;
+  }
+
+  &__item {
+  }
+}
