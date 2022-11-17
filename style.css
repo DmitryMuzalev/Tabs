@@ -277,6 +277,75 @@ body {
   }
 }
 
+.tab-4 {
+  background-color: #efefef;
+}
+.tab-4__body {
+  border-radius: 0.9375rem;
+  overflow: hidden;
+}
+.tab-4__links {
+  display: flex;
+  margin: 0px 0px 0.9375rem 0px;
+}
+.tab-4__links li {
+  flex: 1 1 25%;
+}
+.tab-4__link {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 0.625rem;
+  align-items: center;
+  background-color: #eaeef6;
+  gap: 8px;
+}
+.tab-4__link.active {
+  background-color: #ffffff;
+  border-radius: 0.625rem;
+}
+.tab-4__link span {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.tab-4__contant {
+  padding: 0 0.9375rem;
+}
+.tab-4-min {
+  display: flex;
+}
+.tab-4-min__links {
+  overflow: hidden;
+  flex: 1 0 25%;
+  height: auto;
+  background-color: #eaeef6;
+  border-radius: 0.9375rem 0 0 0.9375rem;
+}
+.tab-4-min__link {
+  width: 100%;
+  display: inline-block;
+  padding: 0.625rem 0.9375rem;
+  margin: 0px 0px 0px 0.625rem;
+}
+.tab-4-min__link span {
+  font-weight: 500;
+}
+.tab-4-min__link.active {
+  background-color: #ffffff;
+  border-radius: 0.625rem 0 0 0.625rem;
+}
+.tab-4-min__content {
+  background-color: #ffffff;
+  padding: 1.875rem;
+}
+.tab-4-min__item {
+  display: none;
+}
+.tab-4-min__item.active {
+  display: block;
+}
+
 * {
   padding: 0;
   margin: 0;
