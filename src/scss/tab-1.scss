@@ -1,17 +1,9 @@
 .tab-1 {
-  &__container {
-  }
-
-  &__title {
-  }
-
-  &__subtitle {
-  }
-
   &__body {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 40px -20px rgba($color: #4f6592, $alpha: 0.4);
+
     @media (max-width: 600px) {
       flex-direction: row;
     }
@@ -29,29 +21,13 @@
   }
 
   &__link {
-    width: 100%;
-    justify-content: center;
-    padding: rem(20) rem(10);
-    background-color: #eef2f6;
-    text-transform: uppercase;
     transition: all 0.5s;
     @media (max-width: 600px) {
       justify-content: start;
     }
-
     span {
       font-weight: 700;
     }
-
-    &.active {
-      background-color: #ffffff;
-    }
-  }
-
-  &__content {
-  }
-
-  &__item {
   }
 
   &__title-item {
